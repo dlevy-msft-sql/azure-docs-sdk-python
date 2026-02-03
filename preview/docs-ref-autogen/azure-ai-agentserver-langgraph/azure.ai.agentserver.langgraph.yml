@@ -6,20 +6,14 @@ type: rootImport
 functions:
 - uid: azure.ai.agentserver.langgraph.from_langgraph
   name: from_langgraph
-  signature: 'from_langgraph(agent, /, credentials: AsyncTokenCredential | None =
-    None, converter: ResponseAPIConverter | None = None) -> LangGraphAdapter'
-  positionalOnlyParameters:
+  signature: 'from_langgraph(agent, state_converter: models.LanggraphStateConverter
+    | None = None)'
+  parameters:
   - name: agent
     isRequired: true
-  parameters:
-  - name: credentials
+  - name: state_converter
     defaultValue: None
-  - name: converter
-    defaultValue: None
-classes:
-- azure.ai.agentserver.langgraph.LanggraphRunContext
 packages:
 - azure.ai.agentserver.langgraph.models
-- azure.ai.agentserver.langgraph.tools
 modules:
 - azure.ai.agentserver.langgraph.langgraph
