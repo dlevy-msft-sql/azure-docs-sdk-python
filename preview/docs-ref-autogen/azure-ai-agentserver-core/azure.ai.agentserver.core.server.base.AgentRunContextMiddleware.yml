@@ -6,12 +6,10 @@ module: azure.ai.agentserver.core.server.base
 constructor:
   syntax: 'AgentRunContextMiddleware(app: Callable[[MutableMapping[str, Any], Callable[[],
     Awaitable[MutableMapping[str, Any]]], Callable[[MutableMapping[str, Any]], Awaitable[None]]],
-    Awaitable[None]], agent: FoundryCBAgent | None = None)'
+    Awaitable[None]])'
   parameters:
   - name: app
     isRequired: true
-  - name: agent
-    defaultValue: None
 methods:
 - uid: azure.ai.agentserver.core.server.base.AgentRunContextMiddleware.dispatch
   name: dispatch

@@ -1,0 +1,30 @@
+### YamlMime:PythonClass
+uid: azure.ai.agentserver.core.AgentRunContext
+name: AgentRunContext
+fullName: azure.ai.agentserver.core.AgentRunContext
+module: azure.ai.agentserver.core
+constructor:
+  syntax: 'AgentRunContext(payload: dict)'
+  parameters:
+  - name: payload
+    isRequired: true
+methods:
+- uid: azure.ai.agentserver.core.AgentRunContext.get_agent_id_object
+  name: get_agent_id_object
+  signature: get_agent_id_object() -> AgentId
+- uid: azure.ai.agentserver.core.AgentRunContext.get_conversation_object
+  name: get_conversation_object
+  signature: get_conversation_object() -> ResponseConversation1
+attributes:
+- uid: azure.ai.agentserver.core.AgentRunContext.conversation_id
+  name: conversation_id
+- uid: azure.ai.agentserver.core.AgentRunContext.id_generator
+  name: id_generator
+- uid: azure.ai.agentserver.core.AgentRunContext.raw_payload
+  name: raw_payload
+- uid: azure.ai.agentserver.core.AgentRunContext.request
+  name: request
+- uid: azure.ai.agentserver.core.AgentRunContext.response_id
+  name: response_id
+- uid: azure.ai.agentserver.core.AgentRunContext.stream
+  name: stream
