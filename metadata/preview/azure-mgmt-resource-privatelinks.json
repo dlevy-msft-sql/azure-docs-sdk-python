@@ -1,0 +1,32 @@
+{
+  "Name": "azure-mgmt-resource-privatelinks",
+  "Version": "1.0.0a20260205011",
+  "DevVersion": "1.0.0a20260205011",
+  "DirectoryPath": "sdk/resources/azure-mgmt-resource-privatelinks",
+  "ServiceDirectory": "resources",
+  "ReadMePath": "sdk/resources/azure-mgmt-resource-privatelinks/README.md",
+  "ChangeLogPath": "sdk/resources/azure-mgmt-resource-privatelinks/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-mgmt-resource-privatelinks",
+  "ReleaseStatus": "2026-02-04",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": [
+    ""
+  ],
+  "ArtifactDetails": {
+    "triggeringPaths": [
+      "/sdk/resources/ci.yml"
+    ],
+    "safeName": "azuremgmtresourceprivatelinks",
+    "name": "azure-mgmt-resource-privatelinks"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": null,
+  "Namespaces": [
+    "azure.mgmt.resource.privatelinks"
+  ]
+}

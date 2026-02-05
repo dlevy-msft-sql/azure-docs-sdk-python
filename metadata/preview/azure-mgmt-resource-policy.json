@@ -1,0 +1,32 @@
+{
+  "Name": "azure-mgmt-resource-policy",
+  "Version": "1.0.0a20260205011",
+  "DevVersion": "1.0.0a20260205011",
+  "DirectoryPath": "sdk/resources/azure-mgmt-resource-policy",
+  "ServiceDirectory": "resources",
+  "ReadMePath": "sdk/resources/azure-mgmt-resource-policy/README.md",
+  "ChangeLogPath": "sdk/resources/azure-mgmt-resource-policy/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-mgmt-resource-policy",
+  "ReleaseStatus": "2026-02-04",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": [
+    ""
+  ],
+  "ArtifactDetails": {
+    "triggeringPaths": [
+      "/sdk/resources/ci.yml"
+    ],
+    "safeName": "azuremgmtresourcepolicy",
+    "name": "azure-mgmt-resource-policy"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": null,
+  "Namespaces": [
+    "azure.mgmt.resource.policy"
+  ]
+}
