@@ -1,7 +1,7 @@
 {
   "Name": "corehttp",
-  "Version": "1.0.0a20260205004",
-  "DevVersion": "1.0.0a20260205004",
+  "Version": "1.0.0a20260205006",
+  "DevVersion": "1.0.0a20260205006",
   "DirectoryPath": "sdk/core/corehttp",
   "ServiceDirectory": "core",
   "ReadMePath": "sdk/core/corehttp/README.md",
@@ -10,7 +10,7 @@
   "SdkType": "client",
   "IsNewSdk": false,
   "ArtifactName": "corehttp",
-  "ReleaseStatus": "Unreleased",
+  "ReleaseStatus": "2026-02-05",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": [
     ""

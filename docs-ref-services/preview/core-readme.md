@@ -7,7 +7,7 @@ ms.devlang: python
 ms.service: core
 ---
 
-# Azure Core shared client library for Python - version 1.38.1a20260205004 
+# Azure Core shared client library for Python - version 1.38.1a20260205006 
 
 
 Azure core provides shared exceptions and modules for Python SDK client libraries.
