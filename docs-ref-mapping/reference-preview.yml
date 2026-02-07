@@ -1312,6 +1312,10 @@
     href: ~/docs-ref-services/preview/machine-learning.md
     landingPageType: Service
     items:
+    - name: Machine Learning
+      href: ~/docs-ref-services/preview/ai-ml-readme.md
+      children:
+      - azure.ai.ml
     - name: Management
       items:
       - name: Resource Management - Machine Learning Compute
@@ -1527,9 +1531,9 @@
     - name: Management
       items:
       - name: Resource Management - Network Analytics (deprecated)
+        href: ~/docs-ref-services/preview/mgmt-networkanalytics-readme.md
         children:
         - azure.mgmt.networkanalytics
-        landingPageType: Service
   - name: Network Function
     href: ~/docs-ref-services/preview/network-function.md
     landingPageType: Service
@@ -1902,6 +1906,26 @@
         href: ~/docs-ref-services/preview/mgmt-resource-bicep-readme.md
         children:
         - azure.mgmt.resource.bicep
+  - name: Resource-Changes
+    href: ~/docs-ref-services/preview/resource-changes.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Resource-Changes
+        href: ~/docs-ref-services/preview/mgmt-resource-changes-readme.md
+        children:
+        - azure.mgmt.resource.changes
+  - name: Resource-Databoundaries
+    href: ~/docs-ref-services/preview/resource-databoundaries.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Resource-Databoundaries
+        href: ~/docs-ref-services/preview/mgmt-resource-databoundaries-readme.md
+        children:
+        - azure.mgmt.resource.databoundaries
   - name: Resource-Deployments
     href: ~/docs-ref-services/preview/resource-deployments.md
     landingPageType: Service
@@ -1932,6 +1956,76 @@
         href: ~/docs-ref-services/preview/mgmt-resource-deploymentstacks-readme.md
         children:
         - azure.mgmt.resource.deploymentstacks
+  - name: Resource-Features
+    href: ~/docs-ref-services/preview/resource-features.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Resource-Features
+        href: ~/docs-ref-services/preview/mgmt-resource-features-readme.md
+        children:
+        - azure.mgmt.resource.features
+  - name: Resource-Links
+    href: ~/docs-ref-services/preview/resource-links.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Resource-Links
+        href: ~/docs-ref-services/preview/mgmt-resource-links-readme.md
+        children:
+        - azure.mgmt.resource.links
+  - name: Resource-Locks
+    href: ~/docs-ref-services/preview/resource-locks.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Resource-Locks
+        href: ~/docs-ref-services/preview/mgmt-resource-locks-readme.md
+        children:
+        - azure.mgmt.resource.locks
+  - name: Resource-Managedapplications
+    href: ~/docs-ref-services/preview/resource-managedapplications.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Resource-Managedapplications
+        href: ~/docs-ref-services/preview/mgmt-resource-managedapplications-readme.md
+        children:
+        - azure.mgmt.resource.managedapplications
+  - name: Resource-Policy
+    href: ~/docs-ref-services/preview/resource-policy.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Resource-Policy
+        href: ~/docs-ref-services/preview/mgmt-resource-policy-readme.md
+        children:
+        - azure.mgmt.resource.policy
+  - name: Resource-Privatelinks
+    href: ~/docs-ref-services/preview/resource-privatelinks.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Resource-Privatelinks
+        href: ~/docs-ref-services/preview/mgmt-resource-privatelinks-readme.md
+        children:
+        - azure.mgmt.resource.privatelinks
+  - name: Resource-Subscriptions
+    href: ~/docs-ref-services/preview/resource-subscriptions.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Resource-Subscriptions
+        href: ~/docs-ref-services/preview/mgmt-resource-subscriptions-readme.md
+        children:
+        - azure.mgmt.resource.subscriptions
   - name: Resource-Templatespecs
     href: ~/docs-ref-services/preview/resource-templatespecs.md
     landingPageType: Service
@@ -2350,10 +2444,6 @@
       href: ~/docs-ref-services/preview/messaging-webpubsubclient-readme.md
       children:
       - azure.messaging.webpubsubclient
-    - name: Web PubSub
-      href: ~/docs-ref-services/preview/messaging-webpubsubservice-readme.md
-      children:
-      - azure.messaging.webpubsubservice
     - name: Management
       items:
       - name: Resource Management - Web PubSub
